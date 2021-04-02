@@ -162,7 +162,29 @@ type(["hello","world",1,9,[1,2],["wen","shui"],[True,False]])
 ["hello","world",1,9]*3
 #['hello', 'world', 1, 9, 'hello', 'world', 1, 9, 'hello', 'world', 1, 9]
 
+```
+
+## 4. tuple：元组
+
+```python
+
+#tuple = ("google","java","c++")
+tup = (1,2,3,4,5,6,7,8,9,10)
+tup2 = ("任意类型元素1","任意类型元素2","任意类型元素3","任意类型元素4")
+type(tup2)#<class 'tuple'>
+
+tup3 = "a","b","v","d",1,"温水"   #不加括号也可以使用
+print(tup3) #('a', 'b', 'v', 'd', 1, '温水')
+type(tup3)	#<class 'tuple'>
 
 
+#元祖只有一个元素时，需要在元素后面添加逗号，否则括号会被当作运算符使用
+tup4 = (50)
+type(tup4)
+#<class ‘int’>
+
+tup5 = (50,)
+type(tup5)
+#<class 'tuple'>
 ```
 
